@@ -71,3 +71,96 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+
+CREATE TABLE `tbl_imo_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `tbl_likee_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `tbl_appnext_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+CREATE TABLE `tbl_mcanvas_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `tbl_yahoo_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `tbl_zizmek_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `tbl_pokkt_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `tbl_miq_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+
+CREATE TABLE `tbl_espn_cricinfo_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+CREATE TABLE `tbl_inf_makt_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE `tbl_gupshup_brand` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `brand_logo` varchar(255) CHARACTER SET utf8 NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+

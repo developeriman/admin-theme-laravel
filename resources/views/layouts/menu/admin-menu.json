@@ -5,111 +5,52 @@
     },
     {
         "icon": "fas fa-th-list",
-        "title": "Manage Product",
+        "title": "Imo Brand",
         "children": [{
                 "icon": "fas fa-angle-right",
-                "title": "Manage Category",
-                "url": "admin/category"
+                "title": "Manage Brand",
+                "url": "admin/imo"
             },
             {
                 "icon": "fas fa-angle-right",
-                "title": "Manage Subcategory",
-                "url": "admin/subcategory"
-            },
-            {
-                "icon": "fas fa-angle-right",
-                "title": "Create Product",
-                "url": "admin/product/create"
-            },
-            {
-                "icon": "fas fa-angle-right",
-                "title": "Product List",
-                "url": "admin/product/list"
+                "title": "Create Brand",
+                "url": "admin/imo/create"
             }
         ]
     },
+
     {
-        "icon": "fas fa-users",
-        "title": "Manage Users",
+        "icon": "fas fa-th-list",
+        "title": "Imo Yahoo",
         "children": [{
                 "icon": "fas fa-angle-right",
-                "title": "Active User",
-                "url": "admin/user/list?status=1"
+                "title": "Manage Brand",
+                "url": "admin/yahoo"
             },
             {
                 "icon": "fas fa-angle-right",
-                "title": "Inactive user",
-                "url": "admin/user/list?status=0"
-            },
-            {
-                "icon": "fas fa-angle-right",
-                "title": "Deleted user",
-                "url": "admin/user/list?deleted_at=true"
-            },
-            {
-                "icon": "fas fa-angle-right",
-                "title": "Type 10 user",
-                "url": "admin/user/list?general_user_type=10"
-            },
-            {
-                "icon": "fas fa-angle-right",
-                "title": "Type 300 user",
-                "url": "admin/user/list?general_user_type=300"
-            },
-            {
-                "icon": "fas fa-angle-right",
-                "title": "All Admin",
-                "url": "admin/user/list?user_type=1"
-            },
-            {
-                "icon": "fas fa-angle-right",
-                "title": "All Agent",
-                "url": "admin/user/list?user_type=2"
-            },
-            {
-                "icon": "fas fa-angle-right",
-                "title": "All User",
-                "url": "admin/user/list?user_type=3"
+                "title": "Create Brand",
+                "url": "admin/yahoo/create"
             }
         ]
     },
-    
+
     {
-        "icon": "fab fa-accusoft",
-        "title": "Manage Features",
-        "url": "admin/featured/create"
-    },
-    {
-        "icon": "fas fa-vr-cardboard",
-        "title": "Manage Banner",
+        "icon": "fas fa-th-list",
+        "title": "Imo Brand",
         "children": [{
                 "icon": "fas fa-angle-right",
-                "title": "Create Banner",
-                "url": "admin/banner/create"
+                "title": "Manage Brand",
+                "url": "admin/imo"
             },
             {
                 "icon": "fas fa-angle-right",
-                "title": "Banner List",
-                "url": "admin/banner/list"
+                "title": "Create Brand",
+                "url": "admin/imo/create"
             }
         ]
     },
-   
-    {
-        "icon": "fas fa-address-book",
-        "title": "Manage Contact",
-        "children": [{
-                "icon": "fas fa-angle-right",
-                "title": "Create Contact",
-                "url": "admin/contact/create"
-            },
-            {
-                "icon": "fas fa-angle-right",
-                "title": "Contact List",
-                "url": "admin/contact/list"
-            }
-        ]
-    },
+
     {
         "icon": "fas fa-user",
         "title": "Manage Profile",

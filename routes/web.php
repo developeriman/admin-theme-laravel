@@ -4,6 +4,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Theme\DashboardController;
 
 Route::get('/cache-clear',function(){
@@ -19,10 +20,12 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => 'admin'],function(){
+
+    Route::get('/home',[HomeController::class,'index']);
       //----- Admin Auth -----
       Route::get('/login',[LoginController::class,'adminLoginIndex'])->name('admin.login.form');
       Route::post('/login',[LoginController::class,'adminLogin'])->name('adminLogin');
-     
+
    Route::group([
       'middleware' => ['admin_auth']
   ],function(){
