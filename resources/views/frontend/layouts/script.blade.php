@@ -6,24 +6,7 @@
     })
   </script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script>
-    const swiper2 = new Swiper('.swiper', {
-      loop: true,
-      // autoplay: {
-      //   delay: 2600,
-      //   disableOnInteraction: false,
-      // },
-      pagination: {
-        el: '.swiper-pagination',
-        cliclable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-
-  </script>
+  
   <script>
     AOS.init({
       once: true,

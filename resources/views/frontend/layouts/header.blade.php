@@ -5,19 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1 ">
 {{-- <link rel="stylesheet" href="{{asset('frontend/css/default-yahoo.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/espn.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/css/imo-style-default.css') }}">
+
 <link rel="stylesheet" href="{{ asset('frontend/css/infulencer.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/likee-style-default.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/sizmek.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/css/story.css') }}">
+
 <link rel="stylesheet" href="{{ asset('frontend/css/style-appnext.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/style-gupshup.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/style-mcanvas.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/style-miq.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/css/style-pokkt.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
+
+
 <link rel="stylesheet" href="{{ asset('frontend/css/yahoo.css') }}"> --}}
+<link rel="stylesheet" href="{{ asset('frontend/css/style-pokkt.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/story.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/header.css') }}">
+<link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -27,6 +30,16 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!-- 导入lottie -->
+  <script src="https://static-web.likee.com/as/common-static/ads-home/lottie.min.5.5.6.js"></script>
+  <link href="https://static-web.likee.com/as/common-static/ads-home/video-js.7.8.4.css" rel="stylesheet" />
+  <script src="https://static-web.likee.com/as/common-static/ads-home/videojs-ie8.min.7.8.4.js"></script>
+  <script src="https://static-web.likee.com/as/common-static/ads-home/video.min.7.8.4.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js"></script>
+
 <title>bitspearhead | Home</title>
 </head>
 

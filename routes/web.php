@@ -4,7 +4,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\LoginController;
-use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Frontend\PagesController;
 use App\Http\Controllers\Theme\DashboardController;
 
 Route::get('/cache-clear',function(){
@@ -14,10 +14,6 @@ Route::get('/cache-clear',function(){
 });
 
 Route::get('/pass',[LoginController::class,'pass'])->name('pass');
-
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::group(['prefix' => 'admin'],function(){
 
@@ -39,3 +35,7 @@ Route::group(['prefix' => 'admin'],function(){
 Route::prefix('theme')->group(function(){
     Route::get('dashboard', [DashboardController::class, 'dashboard'])->name('theme.dashboard');
 });
+
+Route::get('/', [PagesController::class, 'home'])->name('frontend.home');
+Route::get('/pokkt', [PagesController::class, 'pokkt'])->name('frontend.pokkt');
+Route::get('/imo', [PagesController::class, 'imo'])->name('frontend.imo');
