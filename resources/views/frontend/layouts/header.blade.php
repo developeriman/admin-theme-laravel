@@ -12,12 +12,12 @@
 
 <link rel="stylesheet" href="{{ asset('frontend/css/style-appnext.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/style-gupshup.css') }}">
-<link rel="stylesheet" href="{{ asset('frontend/css/style-mcanvas.css') }}">
+
 <link rel="stylesheet" href="{{ asset('frontend/css/style-miq.css') }}">
 
 
 <link rel="stylesheet" href="{{ asset('frontend/css/yahoo.css') }}"> --}}
-<link rel="stylesheet" href="{{ asset('frontend/css/style-pokkt.css') }}">
+
 <link rel="stylesheet" href="{{ asset('frontend/css/story.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/header.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">
@@ -31,6 +31,12 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="https://static-web.likee.com/as/common-static/ads-home/favicon.png"
+    type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"
     integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <!-- 导入lottie -->

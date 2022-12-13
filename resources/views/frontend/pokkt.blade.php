@@ -1,5 +1,8 @@
 @extends('frontend.layouts.main')
 @section('content')
+<head>
+  <link rel="stylesheet" href="{{ asset('frontend/css/style-pokkt.css') }}">
+</head>
 <nav class="pokkt-nav">
     <img src="{{asset('frontend/img/pokkt-images/pokktlogo.png')}}" alt="logo">
   </nav>
@@ -183,8 +186,9 @@
   <div class="trusted-brands-container">
     <h1>Trusted By <span>Brands</span></h1>
     <div class="swiper2 mySwiper">
-        <div class="swiper-slide"><img src="{{asset('frontend/img/Brand_logos/Pokkt/apex.png')}}" alt=""></div>
       <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="{{asset('frontend/img/Brand_logos/Pokkt/apex.png')}}" alt=""></div>
+
           <div class="swiper-slide"><img src="{{asset('frontend/img/Brand_logos/Pokkt/Basundhara.png')}}" alt=""></div>
           <div class="swiper-slide"><img src="{{asset('frontend/img/Brand_logos/Pokkt/bata.png')}}" alt=""></div>
           <div class="swiper-slide"><img src="{{asset('frontend/img/Brand_logos/Pokkt/Berger.png')}}" alt=""></div>
@@ -212,6 +216,7 @@
 
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script>
     var swiper2 = new Swiper(".mySwiper", {
       slidesPerView: 6,

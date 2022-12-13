@@ -14,12 +14,12 @@ body {
     overflow-x: hidden;
 }
 
-nav {
+.gup-nav {
     width: 100vw;
     height: 55px;
 }
 
-nav img {
+.gup-nav img {
     height: 50px;
     margin-left: 30px;
     margin-top: 20PX;

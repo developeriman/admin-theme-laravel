@@ -2040,7 +2040,6 @@ a:-webkit-any-link {
   height: 35px;
   background-color: white;
   color: black;
-  transform: translateY(-7px);
 }
 
 .gallery-card-container:hover .gallery-card {

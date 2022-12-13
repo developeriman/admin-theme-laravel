@@ -39,3 +39,12 @@ Route::prefix('theme')->group(function(){
 Route::get('/', [PagesController::class, 'home'])->name('frontend.home');
 Route::get('/pokkt', [PagesController::class, 'pokkt'])->name('frontend.pokkt');
 Route::get('/imo', [PagesController::class, 'imo'])->name('frontend.imo');
+Route::get('/likee', [PagesController::class, 'likee'])->name('frontend.likee');
+Route::get('/mcanvas', [PagesController::class, 'mcanvas'])->name('frontend.mcanvas');
+Route::get('/appnext', [PagesController::class, 'appnext'])->name('frontend.appnext');
+Route::get('/gupshup', [PagesController::class, 'gupshup'])->name('frontend.gupshup');
+Route::get('/sizmek', [PagesController::class, 'sizmek'])->name('frontend.sizmek');
+Route::get('/espncricinfo', [PagesController::class, 'espncricinfo'])->name('frontend.espncricinfo');
+Route::get('/influencermarketing', [PagesController::class, 'influencermarketing'])->name('frontend.influencermarketing');
+Route::get('/yahoo', [PagesController::class, 'yahoo'])->name('frontend.yahoo');
+Route::get('/miq', [PagesController::class, 'miq'])->name('frontend.miq');

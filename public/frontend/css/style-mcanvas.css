@@ -14,13 +14,13 @@ body {
     overflow-x: hidden;
 }
 
-nav {
+.mc-nav {
     width: 100vw;
     background: rgb(248, 221, 222);
     background: linear-gradient(90deg, rgba(248, 221, 222, 1) 0%, rgba(229, 221, 255, 1) 100%);
 }
 
-nav img {
+.mc-nav img {
     height: 60px;
     margin-left: 50px;
 }

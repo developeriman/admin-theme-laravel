@@ -5,7 +5,6 @@
       navbarLinks.classList.toggle('active')
     })
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   
   <script>
     AOS.init({
@@ -90,3 +89,32 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
+    <script>
+      $mainGrid = $('.product-inner .tab-wrap');
+      $targetcap = $('.targeting-capabilities');
+      $buyop = $('.buying-opportunity');
+      var x = screen.width;
+      console.log($(window).width() <= 520)
+
+      if ($(window).width() <= 600) {
+        $mainGrid.css('height', $mainGrid.height() * .32);
+        $targetcap.css('height', $mainGrid.height() * 3);
+        $buyop.css('height', $mainGrid.height() * 2.8);
+      } else {
+        $mainGrid.css('height', $mainGrid.height() * .7);
+      }
+    </script>
+    <script type="text/javascript" src="{{asset('frontend/js/imo.5c10e3e5.js')}}"></script>
+    <script>
+      $mainGrid = $('.first-inner .tab-wrap')
+      var x = screen.width;
+      console.log($(window).width() <= 520)
+  
+      if ($(window).width() <= 600) {
+        $mainGrid.css('height', $mainGrid.height() * .3);
+      }else{
+        $mainGrid.css('height', $mainGrid.height() * .6);
+      }
+    </script>
+    <script type="text/javascript" src="{{asset('frontend/js/likee.013880a2.js')}}"></script>
+    <script type="text/javascript" src="{{asset('frontend/js/mcanvas.js')}}"></script>

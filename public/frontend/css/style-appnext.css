@@ -14,9 +14,10 @@ body {
     transform: translateY(-3px);
 }
 
-nav img {
+.appnext-nav img {
     width: 100vw;
     height: 100px;
+    padding-bottom: 10px;
 }
 
 

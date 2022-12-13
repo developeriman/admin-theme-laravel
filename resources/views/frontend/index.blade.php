@@ -46,7 +46,7 @@
       </div>
       <div class="services-right-content" data-aos="fade-left">
         <div class="services-swiper-div-center">
-          <div class="swiper">
+          <div class="swiper" style="margin-top: 5%;">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="frame-ad-container">
@@ -170,6 +170,7 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <script>
     const swiper2 = new Swiper('.swiper', {
       loop: true,
