@@ -42,7 +42,7 @@
                                 <div class="responsive-iframe my-0">
                                     <video style="z-index: 999;" class="videoplayer" autoplay="" webkit-playsinline=""
                                         playsinline="" muted="" loop=""
-                                        src="../appnext-images/Appnext.webm"></video>
+                                        src="{{asset('frontend/img/appnext-images/Appnext.webm')}}"></video>
                                 </div>
                             </div>
                         </div>

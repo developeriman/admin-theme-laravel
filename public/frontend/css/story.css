@@ -14,6 +14,9 @@
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 30%, rgba(255, 255, 255, 1) 30%);
 } */
+.hidden-center{
+    display: none;
+}
 .ss-title {
     color: white;
     font-size: 3vw;
@@ -77,10 +80,37 @@
     top: 10%;
     transform: translateY(-5%);
 }
+.ss-center img:nth-child(2){
+    position: absolute;
+	width: 95%;
+	left: 3.5%;
+    height: 30.4vw;
+    transform: translateY(3.4%);
+}
 .ss-center video {
 	position: absolute;
 	width: 95%;
 	left: 2.8%;
+}
+.ss-center-pc{
+    position: absolute;
+    left: 50%;
+    top: 35% !important;
+    width: 32vw;
+    transform: translateX(-50%) ;
+}
+.ss-center-pc img{
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    top: 10%;
+    transform: translateY(-5%);
+}
+.ss-center-pc img:nth-child(2){
+	position: absolute;
+	width: 75%;
+	left: 12.7%;
+    transform: translateY(.4%);
 }
 .ss-right{
     color: white;

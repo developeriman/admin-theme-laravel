@@ -56,10 +56,18 @@
     <a class="toggle-button-menu"><i class="fa-solid fa-bars fa-2x"></i></a>
     <div class='navbar-links'>
       <ul>
-        <li><a href='#welcome'>WELCOME</a></li>
+        @if (Route::currentRouteName() !== "frontend.home")
+        <li><a href='/#welcome'>HOME</a></li>
+        @else
+        <li><a href='#welcome'>HOME</a></li>
+        @endif
+        @if (Route::currentRouteName() !== "frontend.home")
+        <li><a href='/#services'>OUR SERVICES</a></li>
+        @else
         <li><a href='#services'>OUR SERVICES</a></li>
+        @endif
         <li class="dropdown">
-          <a class="" href="#our-reach">OUR REACH</a>
+          <a class="" href="#our-reach">OUR PARTNERS</a>
           <a class="dropdown-toggle dropdown-toggle-split" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
             aria-expanded="false"></a>
 
@@ -78,7 +86,11 @@
                 <li><a class="dropdown-item"  href="/beatspearhead/gupshup.html">GUPSHUP</a></li>
           </ul>
         </li>
+        @if (Route::currentRouteName() !== "frontend.home")
+        <li><a href='/#contact-us'>CONTACT US</a></li>
+        @else
         <li><a href='#contact-us'>CONTACT US</a></li>
+        @endif
         <li><a id="loginbtn" href='https://www.bitsdashboard.com/'>LOGIN</a></li>
       </ul>
     </div>

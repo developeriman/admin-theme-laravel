@@ -156,10 +156,20 @@
                     <p>Campaign Duration:</p>
                     <p style="font-weight: bold;">39 Days</p>
                   </div>
-                  <div class="ss-center">
+                  <div class="ss-center ">
                     <img src="{{asset('frontend/img/ss-content/phone.png')}}" alt="">
+                    {{$extension = pathinfo(storage_path('/uploads/my_image.jg'), PATHINFO_EXTENSION) }}
+                    @if ($extension == 'jpg' or $extension == 'png' or $extension == 'jpeg')
+                      <img src="" alt="">
+                    @else
                     <video class="videoplayer" autoplay="" webkit-playsinline="" playsinline="" muted="" loop=""
-                      src="{{asset('frontend/img/ss-content/pokkt-1.mp4')}}"></video>
+                    src="{{asset('frontend/img/ss-content/pokkt-1.mp4')}}"></video>
+                    @endif
+                    
+                  </div>
+                  <div class="ss-center-pc hidden-center">
+                    <img src="{{asset('frontend/img/ss-content/pc.png')}}" alt="">
+                    <img src="{{asset('frontend/img/ss-content/mitsub.jpg')}}" alt=""> 
                   </div>
                   <div class="ss-right">
                     <p>Promised Complete Views:</p>
